@@ -1,0 +1,17 @@
+{
+  "name": "one-click-demo",
+  "env": {
+      "PG_URL": {
+          "description": "URL for your Postgres database"
+      },
+      "PG_USER": {
+          "description": "Postgres username"
+      },
+      "PG_PASSWORD": {
+          "description": "Postgres password"
+      }
+  },
+  "options": {
+      "allow-unauthenticated": true
+  }
+}
